@@ -17,17 +17,21 @@
 
     <v-content>
       <HelloWorld/>
+      <PersonList/>
+
     </v-content>
   </v-app>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld';
+import PersonList from './components/PersonList';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    PersonList,
+    HelloWorld
   },
   data: () => ({
     //
