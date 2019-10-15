@@ -4,6 +4,27 @@
 ```
 npm install
 ```
+## Ejecutar en el celular
+```
+npm run cordova-serve-android
+```
+
+## Ejecutar en el celular
+```
+npm run cordova-serve-browser
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Compiles and hot-reloads for development
 ```
