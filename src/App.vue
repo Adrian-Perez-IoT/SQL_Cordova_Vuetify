@@ -16,7 +16,6 @@
     </v-app-bar>
 
     <v-content>
-      <HelloWorld/>
       <PersonList/>
 
     </v-content>
@@ -24,14 +23,12 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
 import PersonList from './components/PersonList';
 
 export default {
   name: 'App',
   components: {
     PersonList,
-    HelloWorld
   },
   data: () => ({
     //
