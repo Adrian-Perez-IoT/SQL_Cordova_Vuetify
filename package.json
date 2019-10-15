@@ -16,12 +16,16 @@
     "cordova-build-only-www-ios": "cross-env CORDOVA_PLATFORM=ios vue-cli-service cordova-build-only-www-ios",
     "cordova-build-only-www-osx": "cross-env CORDOVA_PLATFORM=osx vue-cli-service cordova-build-only-www-osx",
     "cordova-build-osx": "cross-env CORDOVA_PLATFORM=osx vue-cli-service cordova-build-osx",
-    "cordova-prepare": "vue-cli-service cordova-prepare",    
+    "cordova-prepare": "vue-cli-service cordova-prepare",
     "cordova-serve-ios": "cross-env CORDOVA_PLATFORM=ios vue-cli-service cordova-serve-ios",
     "cordova-serve-osx": "cross-env CORDOVA_PLATFORM=osx vue-cli-service cordova-serve-osx"
   },
   "dependencies": {
+    "axios": "^0.19.0",
+    "cordova-plugin-nano-sqlite": "^1.7.0",
     "core-js": "^2.6.5",
+    "nano-sql": "^1.8.5",
+    "save": "^2.4.0",
     "vue": "^2.6.10",
     "vuetify": "^2.1.0"
   },
