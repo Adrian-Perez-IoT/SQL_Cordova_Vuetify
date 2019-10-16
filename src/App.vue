@@ -16,18 +16,20 @@
     </v-app-bar>
 
     <v-content>
-      <HelloWorld/>
+      <CordovaComponent/>
+      <!-- <HelloWorld/> -->
     </v-content>
   </v-app>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld';
+import CordovaComponent from './components/CordovaComponent';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    HelloWorld, CordovaComponent
   },
   data: () => ({
     //
