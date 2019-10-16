@@ -4,14 +4,21 @@
 ```
 npm install
 ```
-## Ejecutar en el celular
+## Probar en el celular (prerequisito: tener siempre conexion adb )
+Modo development
 ```
 npm run cordova-serve-android
 ```
 
-## Ejecutar en el celular
+## Modo produccion
+Genera los ficheros necesarios en src-cordova/wwww/
 ```
-npm run cordova-serve-browser
+npm run cordova-build-only-www-android
+```
+Instala y ejecutar el .apk final (modo producción)
+```
+cd src-cordova
+cordova run android
 ```
 
 
